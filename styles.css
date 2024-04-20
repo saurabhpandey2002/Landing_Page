@@ -1,0 +1,212 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: black;
+}
+
+/* Navbar styles */
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #FCAF02;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logo img {
+    height: 40px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #000000;
+}
+
+/* Intro Section styles */
+.intro-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 100px 20px;
+    color: white;
+}
+
+.intro-content {
+    flex: 1;
+}
+
+.intro-content h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.intro-content p {
+    margin-bottom: 30px;
+}
+
+.intro-content button {
+    width: 325px;
+       height: 50px;
+       top: 1326px;
+       left: 685px;
+       gap: 0px;
+       border-radius: 100px 100px 100px 100px;
+       border: 2px 2px 2px 2px;
+       opacity: 0px;
+       background: #FCAF02;
+       border: 2px solid #FCAF02
+
+}
+
+.image img {
+    width: 697px;
+    height: 482px;
+    top: 173px;
+    left: 1678px;
+    gap: 0px;
+    opacity: 0px;
+    angle: -180 deg;
+    transform: rotateY(180deg);
+      transform-style: preserve-3d;
+}
+
+/* Contact Us Section styles */
+.contact-section {
+    background-color: #f4f4f4;
+    padding: 100px 20px;
+}
+
+.contact-section h2 {
+    margin-bottom: 40px;
+}
+
+.contact-section form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-section input,
+.contact-section textarea {
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.contact-section input[type="text"],
+.contact-section input[type="email"],
+.contact-section textarea {
+    border: 1px solid #ccc;
+    outline: none;
+    width: 1300px;
+    height: 50px;
+    top: 913px;
+    left: 63px;
+    gap: 100px;
+    border-radius: 100px 100px 100px 100px;
+    opacity: 100px;
+    border: 2px solid #FCAF02
+
+
+}
+.contact-section input[type="Number"],
+.contact-section textarea {
+    border: 1px solid #ccc;
+    outline: none;
+    width: 650px;
+    height: 50px;
+    top: 913px;
+    left: 63px;
+    gap: 100px;
+    border-radius: 100px 100px 100px 100px;
+    opacity: 100px;
+    border: 2px solid #FCAF02
+
+
+}
+
+.contact-section input[type="text"]:focus,
+.contact-section input[type="email"]:focus,
+.contact-section textarea:focus {
+    border-color: #333;
+}
+
+.contact-section button {
+    width: 325px;
+    height: 50px;
+    top: 1326px;
+    left: 685px;
+    gap: 0px;
+    border-radius: 100px 100px 100px 100px;
+    border: 2px 2px 2px 2px;
+    opacity: 0px;
+    background: #FCAF02;
+    border: 2px solid #FCAF02
+
+}
+
+/* Table Section styles */
+.table-section {
+    padding: 100px 20px;
+    color : white;
+}
+
+.table-section h2 {
+    width: 100px;
+        height: 100px;
+        top: 152px;
+        left: 75px;
+        gap: 0px;
+        border: 2px 2px 2px 2px;
+        opacity: 0px;
+        color : white;
+}
+
+table {
+    width: 1300px;
+    height: 100px;
+    top: 152px;
+    left: 75px;
+    gap: 0px;
+    border: 2px 2px 2px 2px;
+    opacity: 0px;
+    color : white;
+}
+
+th, td {
+   width: 250px;
+   height: 50px;
+   top: 175px;
+   left: 290px;
+   gap: 0px;
+   opacity: 0px;
+    color : white;
+}
+
+tfoot td {
+    width: 250px;
+    height: 91px;
+    top: 200px;
+    left: 175px;
+    gap: 0px;
+    opacity: 0px;
+    color : white;
+}
